@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package Class_Packages;
+package Class_Package;
 
 /**
  *
@@ -27,12 +27,7 @@ public class UserClass {
         this.userRole = userRole;
     }
 
-    public String getUserRole() {
-        return userRole;
-    }
-
-    public void setUserRole(String userRole) {
-        this.userRole = userRole;
+    public UserClass() {
     }
 
     public String getUserId() {
@@ -74,7 +69,13 @@ public class UserClass {
     public void setPassword(String password) {
         this.password = password;
     }
-    
-    
-    
+
+    public String getUserRole() {
+        return userRole;
+    }
+
+    public void setUserRole(String userRole) {
+        this.userRole = userRole;
+    }
+
 }
