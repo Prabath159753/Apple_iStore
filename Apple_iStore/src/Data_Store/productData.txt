@@ -1,3 +1,21 @@
-1,22222,iPhone,22222
-2,wwwww,Apple Watch,2222222
-444,ddddddd,iPhone,23444444
+001,Apple iPhone 14 Plus,iPhone,288 000.00
+002,Apple iPhone 14 Pro Max,iPhone,388 000.00
+003,Apple iPhone 14,iPhone,255 000.00
+004,Apple iPhone 14 Pro,iPhone,349 000.00
+005,Apple iPhone SE (2022),iPhone,155 900.00
+006,Apple iPhone 13,iPhone,226 000.00
+007,Apple iPad mini (2021),iPad,188 500.00
+008,Apple iPad Air 4th Generation Wifi only,iPad,219 000.00
+009,Apple iPad Air 5 5G (Wi-Fi + Cellular),iPad,283 000.00
+010,Apple iPad Air 5 5G (Wi-Fi only),iPad,230 000.00
+011,Apple MacBook Air M2 (13.6-inch),Mac,399 000.00
+012,Apple MacBook Pro (M2 chip) 13 inch,Mac,415 000.00
+013,Apple MacBook Pro 14 inch,Mac,645 000.00
+014,Apple MacBook Air M1 13″ (2020),Mac,283 500.00
+015,Apple AirPods 3,AirPods,69 000.00
+016,Apple AirPods Max,AirPods,128 500.00
+017,Apple AirPods Pro,AirPods,75 500.00
+018,Apple AirPods 2,AirPods,47 000.00
+019,Apple Watch SE (2022),Apple Watch,115 000.00
+020,Apple Watch Series 8,Apple Watch,145 000.00
+021,Apple Watch Series 7,Apple Watch,133 000.00

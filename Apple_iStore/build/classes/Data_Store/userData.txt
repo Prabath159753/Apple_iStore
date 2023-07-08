@@ -2,3 +2,5 @@
 1,www,www,www,www,Cashier
 2,ww,sss,sssssss,ssss,Manager
 4,rrrffff,rrfrfffff,3333,3333,Cashier
+001,Cashier,Sonal,Cashier,123456789,Cashier
+002,sonal,sonal,Manager,123456789,Manager

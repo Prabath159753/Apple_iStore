@@ -18,7 +18,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Kavishka
+ * @author Sonal
  */
 public class LoginUi extends javax.swing.JFrame {
 
@@ -163,7 +163,7 @@ public class LoginUi extends javax.swing.JFrame {
                     setVisible(false);
                 }
             }else{
-                JOptionPane.showMessageDialog(null, "USERNAME/PASSWORD WRONG", "WARNING!!", JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(null, "USERNAME / PASSWORD WRONG", "WARNING !!", JOptionPane.WARNING_MESSAGE);
             }
             
         } catch (IOException ex) {

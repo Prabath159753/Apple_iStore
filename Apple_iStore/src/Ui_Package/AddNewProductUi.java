@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Kavishka
+ * @author Sonal
  */
 public class AddNewProductUi extends javax.swing.JFrame {
 
@@ -271,7 +271,7 @@ public class AddNewProductUi extends javax.swing.JFrame {
             
             out.close();
             
-            JOptionPane.showMessageDialog(null,"Product Successfully Registered");
+            JOptionPane.showMessageDialog(null,"Product Successfully Added");
             
         } catch (IOException ex) {
             Logger.getLogger(AddNewProductUi.class.getName()).log(Level.SEVERE, null, ex);

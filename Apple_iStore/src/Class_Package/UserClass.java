@@ -8,9 +8,10 @@ package Class_Package;
 
 /**
  *
- * @author Kavishka
+ * @author Sonal
  */
 public class UserClass {
+    
     private String userId;
     private String userFirstName;
     private String userLastName;

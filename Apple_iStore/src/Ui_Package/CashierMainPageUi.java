@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Kavishka
+ * @author Sonal
  */
 public class CashierMainPageUi extends javax.swing.JFrame {
 
@@ -26,6 +26,7 @@ public class CashierMainPageUi extends javax.swing.JFrame {
      */
     public CashierMainPageUi() {
         initComponents();
+        this.setTitle("Apple iStore / Cashier Panel");
         loardAllProductTable();
     }
 
@@ -172,7 +173,7 @@ public class CashierMainPageUi extends javax.swing.JFrame {
         String productCategory = cmbSearchProductCategory.getSelectedItem().toString();
 
         if((searchProductName.equals("")) && (productCategory.equals("Select Category"))){
-            JOptionPane.showMessageDialog(null, "Please Type Of Product Name Or Select The Product Category .....", "WARNING!!", JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Please Type Of Product Name Or Select The Product Category .....", "WARNING !!", JOptionPane.WARNING_MESSAGE);
         }
         else if(searchProductName.equals("")){
             loardProductInCategoryTable(productCategory);
@@ -181,12 +182,15 @@ public class CashierMainPageUi extends javax.swing.JFrame {
             loardProductInNameTable(searchProductName);
         }
         else{
-            JOptionPane.showMessageDialog(null, "Please Select One Searching Option .....", "WARNING!!", JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Please Select One Searching Option .....", "WARNING !!", JOptionPane.WARNING_MESSAGE);
         }
     }//GEN-LAST:event_btnSearchProductActionPerformed
 
     private void btnViewAllProductsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnViewAllProductsActionPerformed
         loardAllProductTable();
+        
+        txtSearchProductName.setText("");
+        cmbSearchProductCategory.setSelectedIndex(0);
     }//GEN-LAST:event_btnViewAllProductsActionPerformed
 
     public void loardAllProductTable(){
@@ -218,6 +222,8 @@ public class CashierMainPageUi extends javax.swing.JFrame {
         String filePath = "E:\\sonal project\\project\\Apple_iStore\\src\\Data_Store\\productData.txt" ;
         File file = new File(filePath);
         
+        txtSearchProductName.setText("");
+        
         try {
             
             DefaultTableModel model = (DefaultTableModel)tblProducts.getModel();
@@ -243,6 +249,8 @@ public class CashierMainPageUi extends javax.swing.JFrame {
         
         String filePath = "E:\\sonal project\\project\\Apple_iStore\\src\\Data_Store\\productData.txt" ;
         File file = new File(filePath);
+        
+        cmbSearchProductCategory.setSelectedIndex(0);
         
         try {
             

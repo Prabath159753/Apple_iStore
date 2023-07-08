@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Kavishka
+ * @author Sonal
  */
 public class UserRegisterUi extends javax.swing.JFrame {
 

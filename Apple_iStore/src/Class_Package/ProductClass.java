@@ -8,9 +8,10 @@ package Class_Package;
 
 /**
  *
- * @author Kavishka
+ * @author Sonal
  */
 public class ProductClass {
+    
     private String productId;
     private String productName;
     private String productCategory;
